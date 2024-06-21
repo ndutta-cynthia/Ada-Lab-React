@@ -5,11 +5,11 @@ const baseUrl = process.env.REACT_BASE_URL;
             const response = await fetch(`${baseUrl}/auth/login`,{
                 method:'POST',
                 headers:{
-                    'content-Type':'application/json'
+                    'Content-Type':'application/json'
                 },
                 body:JSON.stringify({username,password})
                     
-            })
+            });
             return response.json()
         }
         catch(error){

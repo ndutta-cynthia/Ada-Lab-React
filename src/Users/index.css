@@ -1,7 +1,9 @@
-#users{
-
-    /* display: flex; */
-    /* flex-direction: row; */
+.users-page{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    margin-left: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
 }
+

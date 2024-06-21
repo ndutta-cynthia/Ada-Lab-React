@@ -1,6 +1,7 @@
 import'./index.css';
 
-const About = ()=>{
+
+function About(){
     return(
         <div>
         <h2>About Us</h2>
